@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "842749063983",
+    "firebase_url": "https://stemnasa2020.firebaseio.com",
+    "project_id": "stemnasa2020",
+    "storage_bucket": "stemnasa2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842749063983:android:88f6ae7945bede3ee667da",
+        "android_client_info": {
+          "package_name": "com.astrounants.stemnasa2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842749063983-kun7agd18gdejuvp8gkce3jucp6c79im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.astrounants.stemnasa2020",
+            "certificate_hash": "9a8e60e5665f7eb7e0d89abc510f27366c044ae9"
+          }
+        },
+        {
+          "client_id": "842749063983-hd4ajv3l831v2i8k7vbbq2s1q1hd6ohg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrzdlArO9QbSDtaSjVao_8Roox-qgLL38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842749063983-hd4ajv3l831v2i8k7vbbq2s1q1hd6ohg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

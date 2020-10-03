@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registeration">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="737dp"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splashscreen" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="398dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Please Fill in Required  "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#153143"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="317dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="64dp"
+        android:text="Information "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#153143"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="614dp"
+        android:layout_marginTop="117dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=" - Name :"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10sp"
+            android:text=" - Mission Name :"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/Mission"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Mission Name"
+                android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10sp"
+            android:text=" - Gender :"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5sp">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="selectGender"
+                android:text="Male"
+                android:textSize="27sp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="selectGender"
+                android:text="Female"
+                android:textSize="27sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:overScrollMode="always"
+            android:paddingTop="10sp"
+            android:text=" - Age :"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10sp"
+            android:text=" - Height (in CM) :"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:ems="10"
+                android:hint="Height"
+                android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10sp"
+            android:text=" - Weight (in Kg):"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:ems="10"
+                android:hint="Weight"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10sp"
+                android:text=" - Sleeping Hours :"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <Spinner
+                android:id="@+id/spinnersleepinghours"
+                android:layout_width="157dp"
+                android:layout_height="57dp"
+                android:dropDownWidth="wrap_content"
+                android:paddingLeft="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text=" - Number of Naps :"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <Spinner
+                android:id="@+id/numberofnaps"
+                android:layout_width="158dp"
+                android:layout_height="52dp"
+                android:dropDownWidth="wrap_content"
+                android:paddingLeft="30sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="1sp"
+                android:text="- Nap's Duration (min) :"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <Spinner
+                android:id="@+id/DurationOfNap"
+                android:layout_width="158dp"
+                android:layout_height="52dp"
+                android:dropDownWidth="wrap_content"
+                android:paddingLeft="30sp" />
+
+            <Button
+                android:id="@+id/Register"
+                android:layout_width="337dp"
+                android:layout_height="64dp"
+                android:text="Register"
+                android:onClick="Register"
+
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:translationX="40sp" />
+
+        </LinearLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
